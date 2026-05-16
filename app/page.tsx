@@ -237,7 +237,7 @@ function VideoSection() {
                   cursor: "pointer",
                 }}
               >
-                <source src="/vorher-nachher.mov" type="video/quicktime" />
+                <source src="/vorher-nachher.mp4" type="video/mp4" />
               </video>
               <p className="font-sans text-xs" style={{ color: "#aaaaaa" }}>
                 Zum Vergrößern klicken
@@ -264,7 +264,7 @@ function VideoSection() {
                   cursor: "pointer",
                 }}
               >
-                <source src="/Bad-vorher-nachher.mov" type="video/quicktime" />
+                <source src="/Bad-vorher-nachher.mp4" type="video/mp4" />
               </video>
               <p className="font-sans text-xs" style={{ color: "#aaaaaa" }}>
                 Zum Vergrößern klicken
@@ -291,7 +291,7 @@ function VideoSection() {
                   cursor: "pointer",
                 }}
               >
-                <source src="/Halle-video.mov" type="video/quicktime" />
+                <source src="/Halle-video.mp4" type="video/mp4" />
               </video>
               <p className="font-sans text-xs" style={{ color: "#aaaaaa" }}>
                 Zum Vergrößern klicken
