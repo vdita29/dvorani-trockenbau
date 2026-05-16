@@ -1,0 +1,22 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)\\.mov",
+      "headers": [
+        { "key": "Content-Type", "value": "video/quicktime" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.mp4",
+      "headers": [
+        { "key": "Content-Type", "value": "video/mp4" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.png",
+      "headers": [
+        { "key": "Content-Type", "value": "image/png" }
+      ]
+    }
+  ]
+}

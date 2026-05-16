@@ -238,7 +238,6 @@ function VideoSection() {
                 }}
               >
                 <source src="/vorher-nachher.mov" type="video/quicktime" />
-                <source src="/vorher-nachher.mov" type="video/mp4" />
               </video>
               <p className="font-sans text-xs" style={{ color: "#aaaaaa" }}>
                 Zum Vergrößern klicken
@@ -266,7 +265,6 @@ function VideoSection() {
                 }}
               >
                 <source src="/Bad-vorher-nachher.mov" type="video/quicktime" />
-                <source src="/Bad-vorher-nachher.mov" type="video/mp4" />
               </video>
               <p className="font-sans text-xs" style={{ color: "#aaaaaa" }}>
                 Zum Vergrößern klicken
