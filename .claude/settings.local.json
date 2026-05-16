@@ -8,7 +8,17 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(find \"/Users/aferditaveliqi\" -name \"*Dvorani*Logo*\" -o -name \"*Dvorani*logo*\" 2>/dev/null | head -10)",
       "mcp__Claude_in_Chrome__tabs_context_mcp",
-      "Bash(xargs ls -lt)"
+      "Bash(xargs ls -lt)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(ffmpeg -version)",
+      "Bash(brew install *)",
+      "Bash(ffmpeg -i vorher-nachher.mov -vcodec h264 -acodec aac -movflags +faststart -crf 23 vorher-nachher.mp4 -y)",
+      "Bash(ffmpeg -i Bad-vorher-nachher.mov -vcodec h264 -acodec aac -movflags +faststart -crf 23 Bad-vorher-nachher.mp4 -y)",
+      "Bash(ffmpeg -i Halle-video.mov -vcodec h264 -acodec aac -movflags +faststart -crf 23 Halle-video.mp4 -y)",
+      "Bash(vercel --version)",
+      "Bash(npx vercel *)"
     ]
   }
 }
