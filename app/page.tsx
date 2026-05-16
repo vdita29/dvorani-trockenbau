@@ -122,7 +122,7 @@ const works = [
     caption: "So sieht das Ergebnis aus — makellos",
   },
   {
-    src: "/arbeit-3.jpg",
+    src: "/arbeit-3.png",
     caption: "Wir schaffen Großes — professionell und strukturiert",
   },
 ];
@@ -140,7 +140,7 @@ function WorksSection() {
         </FadeIn>
         <FadeIn delay={0.05}>
           <h2
-            className="font-syne font-bold text-4xl sm:text-5xl md:text-6xl leading-[0.92] tracking-[-0.04em] mb-12"
+            className="font-playfair font-bold text-4xl sm:text-5xl md:text-6xl leading-[1.05] mb-12"
             style={{ color: "#1a1a1a" }}
           >
             Ausgewählte&nbsp;Arbeiten
@@ -213,7 +213,7 @@ function VideoSection() {
         </FadeIn>
         <FadeIn delay={0.06}>
           <h2
-            className="font-syne font-bold text-3xl sm:text-4xl md:text-5xl leading-[0.92] tracking-[-0.04em] mb-10"
+            className="font-playfair font-bold text-3xl sm:text-4xl md:text-5xl leading-[1.05] mb-10"
             style={{ color: "#1a1a1a" }}
           >
             Vorher &amp; Nachher
@@ -265,8 +265,8 @@ function VideoSection() {
                   cursor: "pointer",
                 }}
               >
-                <source src="/bad-vorher-nachher.mov" type="video/quicktime" />
-                <source src="/bad-vorher-nachher.mov" type="video/mp4" />
+                <source src="/Bad-vorher-nachher.mov" type="video/quicktime" />
+                <source src="/Bad-vorher-nachher.mov" type="video/mp4" />
               </video>
               <p className="font-sans text-xs" style={{ color: "#aaaaaa" }}>
                 Zum Vergrößern klicken
@@ -293,7 +293,7 @@ function VideoSection() {
                   cursor: "pointer",
                 }}
               >
-                <source src="/halle-video.mov" type="video/quicktime" />
+                <source src="/Halle-video.mov" type="video/quicktime" />
               </video>
               <p className="font-sans text-xs" style={{ color: "#aaaaaa" }}>
                 Zum Vergrößern klicken
